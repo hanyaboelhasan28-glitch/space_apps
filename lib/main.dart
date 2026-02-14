@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:space_apps/home/home_screen.dart';
 
 import 'login/login_screen.dart';
 
@@ -14,9 +15,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Space App",
       debugShowCheckedModeBanner: false,
-      initialRoute: LoginScreen.routeName,
+      initialRoute: HomeScreen.routeName,
       routes: {
         LoginScreen.routeName: (context) => LoginScreen(),
+        HomeScreen.routeName: (context) => HomeScreen(),
       },
     );
   }
