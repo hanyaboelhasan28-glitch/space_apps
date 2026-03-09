@@ -7,3 +7,4 @@ class PlanetDetailsScreen extends StatelessWidget {
     return const Placeholder();
   }
 }
+
