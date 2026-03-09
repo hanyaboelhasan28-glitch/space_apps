@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:space_apps/home/home_screen.dart';
+import 'package:space_apps/planets_details/planet_details_screen.dart';
+
 
 import 'login/login_screen.dart';
 
@@ -19,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         LoginScreen.routeName: (context) => LoginScreen(),
         HomeScreen.routeName: (context) => HomeScreen(),
+        PlanetDetailsScreen.routeName: (context) => PlanetDetailsScreen(),
       },
     );
   }
