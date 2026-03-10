@@ -95,7 +95,10 @@ class _HomeScreenState extends State<HomeScreen> {
             SizedBox(height: 16),
             FilledButton(
               onPressed: () {
-                Navigator.of(context).pushNamed(PlanetDetailsScreen.routeName);
+                Navigator.of(context).pushNamed(
+                  PlanetDetailsScreen.routeName,
+                  arguments: Planet.planets[selectedIndex % 9],
+                );
               },
               style: FilledButton.styleFrom(
                 backgroundColor: AppColors.red,

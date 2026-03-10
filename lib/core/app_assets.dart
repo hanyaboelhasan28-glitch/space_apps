@@ -1,6 +1,6 @@
 abstract class AppAssets {
   static const String imageRootPath = 'assets/images/';
-
+  static const String modelRootPath = 'assets/models/';
   static const String earth = '${imageRootPath}earth.png';
 
   static const String halfMoon = '${imageRootPath}half_moon.png';
